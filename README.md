@@ -19,4 +19,4 @@ A data is imported from a XML file with format:
 </data>
 ```
 
-The resource creates a Postgresql DB schema from this file and stores the given records. Relaunching an import will create all tables from scratch. Stored data can be listed, searched, filtered and shown through XSL transformation described in <code>data.xsl</code> and transformed and loaded to another DB through XSL transformation in <code>cbd.xsl</code>
+The resource engine creates a Postgresql DB schema from this file and stores the given records. Relaunching an import will create all tables from scratch. Stored data can be listed, searched, filtered and shown through XSL transformation described in <code>data.xsl</code> and transformed and loaded to another DB through XSL transformation in <code>cbd.xsl</code>
