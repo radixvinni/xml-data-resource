@@ -10,8 +10,6 @@
     <xsl:template match="/page"> 
         <html>
             <head> 
-                <link href="{$base_url}css/bootstrap.min.css" rel="stylesheet" media="screen"/>
-                <link href="{$base_url}css/select2.css" rel="stylesheet" media="screen"/>
                 <link href="{$base_url}css/select2-bootstrap.css" rel="stylesheet" media="screen"/>
                 <script src="{$base_url}js/jquery.min.js"></script>
                 <script src="{$base_url}js/bootstrap.min.js"></script>
