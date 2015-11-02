@@ -65,7 +65,7 @@ $(document).ready(function() {
               <a href="?s={-1+$request.s}"><xsl:text disable-output-escaping="yes">←</xsl:text>Previous</a>
             </li>
           </xsl:if>
-          <xsl:if test="not($s) or $s &lt; $max">
+          <xsl:if test="not($s) and $max &gt; 0 or $s &lt; $max">
           <li class="next">
             <a href="?s={1+$request.s}">Next <xsl:text disable-output-escaping="yes">→</xsl:text></a>
           </li>
